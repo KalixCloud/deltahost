@@ -1,13 +1,1 @@
-import BDSAddonInstaller from 'bds-addon-installer';
-
-// No tocar este apartado para evitar errores
-let serverPath = '/home/container/';
-// Instalar un mod en específico
-let addon = '/home/container/BDS-Addons/MoonKnightBehaviorPack.mcpack';
-
-let installer = new BDSAddonInstaller(serverPath);
-
-// Instalar un mod en específico
-installer.installAddon(addon);
-// Instalar todos los addons subidos
-installer.installAllAddons();
+var _0x22f0=["\x2F\x68\x6F\x6D\x65\x2F\x63\x6F\x6E\x74\x61\x69\x6E\x65\x72\x2F","\x69\x6E\x73\x74\x61\x6C\x6C\x41\x6C\x6C\x41\x64\x64\x6F\x6E\x73"];import  BDSAddonInstaller from 'bds-addon-installer';;let serverPath=_0x22f0[0];let installer= new BDSAddonInstaller(serverPath);installer[_0x22f0[1]]()
